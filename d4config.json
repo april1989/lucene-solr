@@ -37,6 +37,6 @@
 "org\/apache\/lucene\/util\/packed\/BulkOperationPacked.*",
 "javafx\/.*",
 "org\/jcp\/.*",
-"oracle\/jrockit\/.*"], 
+"oracle\/jrockit\/.*"],
   "jar": "/lucene/luke/build/lucene-luke-9.0.0-SNAPSHOT/lucene-luke-9.0.0-SNAPSHOT-standalone.jar"
 }
