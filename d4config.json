@@ -18,7 +18,7 @@
 "java\/time\/.*",
 "javax\/.*",
 "sun\/.*",
-"sunw\/.*",
+"sunw\/.*", 
 "com\/sun\/.*",
 "com\/ibm\/.*",
 "com\/apple\/.*",
