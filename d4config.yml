@@ -9,7 +9,7 @@ build:
           ./gradlew assemble
 
 d4tasks:  
-
+ 
   - name: Do_SearchFiles
     which_main_class: org/apache/lucene/demo/SearchFiles
     jar: lucene/demo/build/packaging/lucene-demo-9.0.0-SNAPSHOT.jar
