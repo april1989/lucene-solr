@@ -8,7 +8,7 @@ build:
         run: |
           ./gradlew assemble
 
-d4tasks: 
+d4tasks:  
 
   - name: Do_SearchFiles
     which_main_class: org/apache/lucene/demo/SearchFiles
