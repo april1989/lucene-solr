@@ -1,0 +1,100 @@
+name: lucene-solr
+branches: [ master ]
+build:
+    runs_on: java1.11
+    steps:
+
+      - name: Run  
+        run: |
+          ./gradlew assemble
+
+d4tasks: 
+
+  - name: Do_SearchFiles
+    which_main_class: org/apache/lucene/demo/SearchFiles
+    jar: lucene/demo/build/packaging/lucene-demo-9.0.0-SNAPSHOT.jar
+    classes: /classes
+    exclusions: 
+      java\/applet\/.*,
+      java\/awt\/.*,
+      java\/beans\/.*,
+      java\/math\/.*,
+      java\/net\/.*,
+      java\/rmi\/.*,
+      java\/sql\/.*,
+      java\/text\/.*,
+      java\/util\/concurrent\/atomic\/.*,
+      java\/util\/jar\/.*,
+      java\/util\/logging\/.*,
+      java\/util\/prefs\/.*,
+      java\/util\/regex\/.*,
+      java\/util\/spi\/.*,
+      java\/util\/zip\/.*,
+      java\/time\/.*,
+      javax\/.*,
+      sun\/.*,
+      sunw\/.*,
+      com\/sun\/.*,
+      com\/ibm\/.*,
+      com\/apple\/.*,
+      com\/oracle\/.*,
+      apple\/.*,
+      org\/xml\/.*,
+      jdbm\/.*,
+      org\/netbeans\/.*,
+      org\/openide\/.*,
+      org\/apache\/xerces\/.*,
+      dalvik\/.*,
+      apple\/.*,
+      jdk\/.*,
+      org\/omg\/.*,
+      org\/w3c\/.*,
+      org\/apache\/lucene\/util\/packed\/BulkOperationPacked.*,
+      javafx\/.*,
+      org\/jcp\/.*,
+      oracle\/jrockit\/.*
+    
+  - name: Do_IndexFiles
+    which_main_class: org/apache/lucene/demo/IndexFiles
+    jar: lucene/demo/build/packaging/lucene-demo-9.0.0-SNAPSHOT.jar
+    classes: /build/classes
+    exclusions: 
+      java\/applet\/.*,
+      java\/awt\/.*,
+      java\/beans\/.*,
+      java\/math\/.*,
+      java\/net\/.*,
+      java\/rmi\/.*,
+      java\/sql\/.*,
+      java\/text\/.*,
+      java\/util\/concurrent\/atomic\/.*,
+      java\/util\/jar\/.*,
+      java\/util\/logging\/.*,
+      java\/util\/prefs\/.*,
+      java\/util\/regex\/.*,
+      java\/util\/spi\/.*,
+      java\/util\/zip\/.*,
+      java\/time\/.*,
+      javax\/.*,
+      sun\/.*,
+      sunw\/.*,
+      com\/sun\/.*,
+      com\/ibm\/.*,
+      com\/apple\/.*,
+      com\/oracle\/.*,
+      apple\/.*,
+      org\/xml\/.*,
+      jdbm\/.*,
+      org\/netbeans\/.*,
+      org\/openide\/.*,
+      org\/apache\/xerces\/.*,
+      dalvik\/.*,
+      apple\/.*,
+      jdk\/.*,
+      org\/omg\/.*,
+      org\/w3c\/.*,
+      org\/apache\/lucene\/util\/packed\/BulkOperationPacked.*,
+      javafx\/.*,
+      org\/jcp\/.*,
+      oracle\/jrockit\/.*
+    
