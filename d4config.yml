@@ -62,7 +62,7 @@ d4tasks:
       java\/applet\/.*,
       java\/awt\/.*,
       java\/beans\/.*,
-      java\/math\/.*,
+      java\/math\/.*, 
       java\/net\/.*,
       java\/rmi\/.*,
       java\/sql\/.*,
