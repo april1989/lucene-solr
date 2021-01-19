@@ -58,7 +58,7 @@ d4tasks:
     which_main_class: org/apache/lucene/demo/IndexFiles
     jar: /lucene/demo/build/packaging/lucene-demo-9.0.0-SNAPSHOT.jar
     classes: /build/classes
-    exclusions: 
+    exclusions:  
       java\/applet\/.*,
       java\/awt\/.*,
       java\/beans\/.*,
