@@ -12,7 +12,7 @@ d4tasks:
  
   - name: Do_SearchFiles
     which_main_class: org/apache/lucene/demo/SearchFiles
-    jar: lucene/demo/build/packaging/lucene-demo-9.0.0-SNAPSHOT.jar
+    jar: /lucene/demo/build/packaging/lucene-demo-9.0.0-SNAPSHOT.jar
     classes: /classes
     exclusions: 
       java\/applet\/.*,
@@ -56,7 +56,7 @@ d4tasks:
     
   - name: Do_IndexFiles
     which_main_class: org/apache/lucene/demo/IndexFiles
-    jar: lucene/demo/build/packaging/lucene-demo-9.0.0-SNAPSHOT.jar
+    jar: /lucene/demo/build/packaging/lucene-demo-9.0.0-SNAPSHOT.jar
     classes: /build/classes
     exclusions: 
       java\/applet\/.*,
