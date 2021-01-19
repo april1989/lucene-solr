@@ -21,7 +21,7 @@ d4tasks:
       java\/math\/.*,
       java\/net\/.*,
       java\/rmi\/.*,
-      java\/sql\/.*,
+      java\/sql\/.*, 
       java\/text\/.*,
       java\/util\/concurrent\/atomic\/.*,
       java\/util\/jar\/.*,
