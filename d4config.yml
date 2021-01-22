@@ -4,7 +4,7 @@ build:
     runs_on: java1.11
     steps:
 
-      - name: Run 
+      - name: Run
         run: |
           mkdir -p lucene/demo/build/packaging/lucene-demo-9.0.0-SNAPSHOT 
 
