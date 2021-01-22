@@ -6,7 +6,7 @@ build:
 
       - name: Run
         run: |
-          mkdir -p lucene/demo/build/packaging/lucene-demo-9.0.0-SNAPSHOT 
+          mkdir -p lucene/demo/build/packaging/lucene-demo-9.0.0-SNAPSHOT
 
           cp lucene/core/build/packaging/lucene-core-9.0.0-SNAPSHOT.jar lucene/demo/build/packaging/lucene-demo-9.0.0-SNAPSHOT
           cp lucene/facet/build/packaging/lucene-facet-9.0.0-SNAPSHOT.jar lucene/demo/build/packaging/lucene-demo-9.0.0-SNAPSHOT 
